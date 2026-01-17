@@ -3,5 +3,6 @@
 int main() {
     printf("Eindelijk... een werkende C omgeving!\n");
     printf("Hallo?\n");
+    printf("Hallo?\n");
     return 0;
 }
