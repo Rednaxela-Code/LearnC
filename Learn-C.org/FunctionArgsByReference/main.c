@@ -41,12 +41,14 @@ void addone(int *n)
     (*n)++; // this will effectively increment the value of n
 }
 
+// Dereferencing OLDSCHOOL
 void move(point *p)
 {
     (*p).x++;
     (*p).y++;
 }
 
+// Dereferencing NEWSCHOOL
 void move2(point *p)
 {
     p->x++;
