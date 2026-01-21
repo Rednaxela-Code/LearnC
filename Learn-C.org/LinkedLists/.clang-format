@@ -1,0 +1,23 @@
+---
+# Gebruik LLVM als basis, dit is de meest standaard C-stijl
+BasedOnStyle: LLVM
+
+# De belangrijkste instelling: 4 spaties indentatie
+IndentWidth: 4
+
+# Zorg dat de tab-toets ook als 4 spaties wordt gezien
+TabWidth: 4
+
+# Gebruik nooit echte tabs, altijd spaties
+UseTab: Never
+
+# Hoeveel karakters mogen er op één regel (standaard is 80)
+ColumnLimit: 100
+
+# Zet de accolades van functies op een nieuwe regel (optioneel, veel C-programmeurs vinden dit fijn)
+# Verander naar 'Attach' als je ze op dezelfde regel wilt houden.
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+  AfterControlStatement: false
+---
